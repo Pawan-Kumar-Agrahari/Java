@@ -22,6 +22,14 @@ public class Main{
         HostelStudent hs1 = new HostelStudent("Hosteller", 1, "AIML", 'A', 95, "H-306", "109");
         hs1.display();
         hs1.payFee();
+
+        System.out.println("-------------------");
+
+        s1.search(22);
+        s1.search(23,"name1");
+        s1.search("name2", "AI");
+        s1.search("AI", 'C');
+
         
     }
     

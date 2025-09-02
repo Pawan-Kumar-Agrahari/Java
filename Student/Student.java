@@ -45,4 +45,20 @@ public class Student {
     public void payFee(){
         System.out.println("The student "+this.name+" has paid the tution fee");
     }
+
+    public void search(int rollNo){
+        System.out.println("Searching student by roll no "+ rollNo);
+    }
+
+    public void search(int rollNo, String name){
+        System.out.println("Searching student by roll no "+rollNo+ " and Name "+ name);
+    }
+
+    public void search(String name, String department){
+        System.out.println("Seraching student by Name "+name+" and department "+department);
+    }
+    
+    public void search(String department, char section){
+        System.out.println("Searching student by department "+department+" and section "+section);
+    }
 }
